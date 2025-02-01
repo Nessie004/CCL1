@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Moo Dengs Great Adventure</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  
+  <div id="gameContainer">
+    <div id="startScreen" class="start-screen">
+      <div id="startBackground"></div>
+      <img id="startButton" src="./images/Start_Button.png" alt="Startknopf" class="start-button">
+    </div>
+    <div id="background"></div>
+    <div id="canvasContainer">
+      <canvas id="gameCanvas" width="5700" height="800"></canvas>
+    </div>
+    <div id="livesDisplay"></div>
+    <!-- <button id="menuButton" class="menu-button">
+      <img src="./images/home_button_.png" alt="Menu Button" />
+    </button> -->
+    
+
+    
+    <!-- Game Over Screen -->
+    <div id="gameOverScreen" class="game-over-screen hidden">
+      <div id="gameOverMessage">
+        <img id="retry-Button-GameOver" src="./images/retry_button_.png" alt="Retry" class="retryButton">
+      </div>
+    </div>
+
+    <!-- Game Won Screen -->
+    <div id="gameWonScreen" class="game-won-screen hidden">
+      <img id="retry-Button-GameWon" src="./images/retry_button_.png" alt="Retry" class="retryButton">
+    </div>
+    
+  </div>
+
+
+  <script type="module" src="./scripts/modules/global.js"></script>
+  <script type="module" src="./scripts/modules/input.js"></script>
+  <script type="module" src="./scripts/modules/main.js"></script>
+  
+</body>
+</html>
