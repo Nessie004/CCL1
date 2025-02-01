@@ -12,7 +12,7 @@
 ## ⌨️**Controls**
 Use A and D to move the character. Press the space bar to make the character jump.
 
-## 📸 **Screenshots*
+## 📸 **Screenshots**
 
 ### Main Gameplay:
 
